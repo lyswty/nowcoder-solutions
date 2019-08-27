@@ -1,0 +1,1 @@
+select * from employees where not exists (select emp_no from dept_emp where emp_no = employees.emp_no)

@@ -1,0 +1,1 @@
+select employees.* from employees, emp_v where employees.emp_no = emp_v.emp_no

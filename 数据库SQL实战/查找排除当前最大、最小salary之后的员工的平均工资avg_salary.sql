@@ -1,0 +1,1 @@
+select avg(salary) avg_salary from salaries where to_date = '9999-01-01' and salary <> (select max(salary) from salaries) and salary <> (select max(salary) from salaries)

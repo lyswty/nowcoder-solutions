@@ -1,0 +1,2 @@
+select s1.emp_no, s1.salary, (select sum(s2.salary) from salaries s2 where s2.emp_no <= s1.emp_no and s2.to_date = '9999-01-01') running_total
+from salaries s1 where s1.to_date = '9999-01-01' order by s1.emp_no

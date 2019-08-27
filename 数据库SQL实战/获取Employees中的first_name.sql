@@ -1,0 +1,1 @@
+select first_name from employees order by substr(first_name, length(first_name) - 1)

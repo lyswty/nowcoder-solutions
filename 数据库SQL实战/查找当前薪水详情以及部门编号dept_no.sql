@@ -1,0 +1,1 @@
+select S.*, M.dept_no from salaries S, dept_manager M where M.emp_no = S.emp_no and S.to_date = M.to_date and M.to_date = '9999-01-01'

@@ -1,0 +1,1 @@
+select length('10,A,B') - length('10AB')

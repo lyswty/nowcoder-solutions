@@ -1,0 +1,1 @@
+select "select count(*) from " || name || ";" cnts from sqlite_master where type = 'table'
